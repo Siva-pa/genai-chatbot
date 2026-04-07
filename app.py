@@ -1,3 +1,7 @@
+from config.settings import Settings
+
+Settings.validate()
+
 import streamlit as st
 import json
 import os
